@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'EmbedWebLoadingView_Example' do
+  pod 'EmbedWebLoadingView', :path => '../'
+
+  target 'EmbedWebLoadingView_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
